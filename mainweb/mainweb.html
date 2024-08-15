@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EASY BUY</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class=" bg-dark shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class=" py-2"><img width="180px" src="../images laptop/webLogo/easylogo.png" alt=""></a>
+            <div>
+                <a href="#" id="home" class="text-gray-600 hover:text-gray-800 mx-4">Home</a>
+                <a href="../uploadProduct/upload.html" id="uploadProduct"
+                    class="text-gray-600 hover:text-gray-800 mx-4">Upload Product</a>
+                <a href="../index.html" id="login" class="text-gray-600 hover:text-gray-800 mx-4">login</a>
+                <a href="../signup/signup.html" id="signup" class="text-gray-600 hover:text-gray-800 mx-4">signup</a>
+                <button onclick="logout()" id="logOut" class="text-gray-600 hidden hover:text-gray-800 mx-4">Log
+                    Out</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+
+    <section class="bg-cover  z-0 bg-center h-96 text-white "
+        style="background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+
+        <div class="container mx-auto h-full flex items-center justify-center">
+            <div class="text-center">
+                <h1 class=" text-5xl font-bold">Welcome to Our Store</h1>
+                <p class="mt-4 text-xl">Get the best products at the best prices.</p>
+                <a href="#" class="mt-6 inline-block bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700">Shop
+                    Now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Product Section -->
+    <section class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Featured Products</h2>
+        <div id="renderProduct_Div" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Product 1 -->
+            <!-- <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="https://via.placeholder.com/400" alt="Product 1" class="w-full h-56 object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-gray-800">Product 1</h3>
+                    <p class="text-gray-600 mt-2">$29.99</p>
+                    <p class="text-lg  text-gray-800">Product Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Dignissimos voluptatibus necessitatibus, deserunt expedita rem totam aut.
+                        Accusamus quaerat impedit molestias, quibusdam maxime quos cupiditate, quis fugiat reprehenderit
+                        aperiam odio nulla.</p>
+                    <a href="#" class="mt-4 inline-block bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700">Add
+                        to Cart</a>
+                </div>
+            </div> -->
+       
+        </div>
+
+
+    
+            <div class="mt-52 bg-gray-800 text-white text-center">
+                <p>&copy; 2024 Company Name. All rights reserved.</p>
+            </div>
+        
+        <script type="module" src="mainweb.js"></script>
+</body>
+
+</html>
